@@ -1,1 +1,1 @@
-export const base_url = "https://infinity-backend-eight.vercel.app/api/";
+export const base_url = "http://localhost:5001/api/";
