@@ -73,6 +73,16 @@ const MainLayout = () => {
                   label: "Product List",
                 },
                 {
+                  key: "banner",
+                  icon: <AiOutlineShoppingCart className="fs-4" />,
+                  label: "Add Banner",
+                },
+                {
+                  key: "banner-list",
+                  icon: <AiOutlineShoppingCart className="fs-4" />,
+                  label: "Banner List",
+                },
+                {
                   key: "brand",
                   icon: <SiBrandfolder className="fs-4" />,
                   label: "Brand",

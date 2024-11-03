@@ -22,8 +22,10 @@ import Couponlist from "./pages/Couponlist";
 import AddCoupon from "./pages/AddCoupon";
 import ViewEnq from "./pages/ViewEnq";
 import ViewOrder from "./pages/ViewOrder";
+import Addbanner from "./pages/Addbanner";
 import { PrivateRoutes } from "./routing/PrivateRoutes";
 import { OpenRoutes } from "./routing/OpenRoutes";
+import Bannerlist from "./pages/Bannerlist";
 function App() {
   return (
     <Router>
@@ -32,6 +34,8 @@ function App() {
         <Route path="/admin" element={<PrivateRoutes><MainLayout /></PrivateRoutes>}>
           <Route index element={<Dashboard />} />
           <Route path="enquiries" element={<Enquiries />} />
+          <Route path="banner" element={<Addbanner />} />
+          <Route path="banner-list" element={<Bannerlist />} />
           <Route path="enquiries/:id" element={<ViewEnq />} />
           <Route path="blog-list" element={<Bloglist />} />
           <Route path="blog" element={<Addblog />} />
